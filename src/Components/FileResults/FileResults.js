@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import './FileResults.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Sidebar from '../Sidebar/Sidebar';
-import Graph from '../BusinessRules/Graph';
 // import jsonData from '../../temp-data.json';
 // import cfgData from '../../cfg.json';
 import randomColor from 'randomcolor';
