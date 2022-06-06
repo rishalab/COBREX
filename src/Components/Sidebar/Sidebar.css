@@ -1,0 +1,66 @@
+.sidebar {
+  min-height: 100vh !important;
+
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+#sidebar-wrapper {
+  min-height: 100vh !important;
+
+  margin-left: -1rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+.sidebar-checkbox {
+  padding: 5% 10%;
+  max-height: 50vh;
+  overflow: scroll;
+  border-top: 0.2px solid gray;
+  border-bottom: 0.2px solid gray;
+}
+
+.sidebar-cfg {
+  height: 5vh;
+}
+
+.form-check {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.form-check label {
+  margin-left: 5%;
+}
+
+.sidebar-view-business-rules-button {
+  width: 100%;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 10%;
+}
+/* #page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+} */
+
+.merge-checkbox {
+  font-weight: bold;
+}
+
+.dropdown button {
+  width: 100%;
+}
+
+.dropdown-menu {
+  width: 100%;
+}

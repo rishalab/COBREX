@@ -1,0 +1,11 @@
+.modal-backdrop.show {
+  opacity: 0.8;
+}
+
+.btn-close {
+  display: none;
+}
+
+.alert .btn-close {
+  display: block;
+}

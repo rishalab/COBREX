@@ -1,0 +1,20 @@
+.FileResults {
+  height: 100%;
+}
+
+.FileResults-placeholder {
+  align-items: center;
+
+  padding: auto;
+  height: 100%;
+  display: flex;
+}
+
+.FileResults-placeholder h4 {
+  margin: auto;
+  align-self: center;
+}
+
+#page-content-wrapper {
+  max-height: 100vh;
+}

@@ -1,0 +1,8 @@
+.graph-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.graph-wrapper svg {
+  height: 100vh;
+}
