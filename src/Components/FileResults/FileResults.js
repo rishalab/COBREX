@@ -123,7 +123,10 @@ const FileResults = (props) => {
       }
 
       axios
-        .post(process.env.REACT_APP_API_URL + '/graphdot', newGraph)
+        .post(
+          'https://pacific-waters-96516.herokuapp.com' + '/graphdot',
+          newGraph
+        )
         .then((response) => {
           //console.log(response);
           setCurrentGraph(newGraph);
@@ -223,7 +226,10 @@ const FileResults = (props) => {
     }
 
     axios
-      .post(process.env.REACT_APP_API_URL + '/graphdot', newGraph)
+      .post(
+        'https://pacific-waters-96516.herokuapp.com' + '/graphdot',
+        newGraph
+      )
       .then((response) => {
         setCurrentGraph(newGraph);
         setCurrentDotGraph(response.data['dot_code']);
@@ -284,7 +290,7 @@ const FileResults = (props) => {
     //   });
     axios
       .post(
-        process.env.REACT_APP_API_URL + '/export',
+        'https://pacific-waters-96516.herokuapp.com' + '/export',
         {
           graph: currentGraph,
           format: format,
