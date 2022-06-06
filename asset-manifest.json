@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/COBREX/static/css/main.a107c68b.css",
-    "main.js": "/COBREX/static/js/main.aa778d81.js",
+    "main.js": "/COBREX/static/js/main.08df1869.js",
     "static/js/787.d9c7758a.chunk.js": "/COBREX/static/js/787.d9c7758a.chunk.js",
     "index.html": "/COBREX/index.html",
     "main.a107c68b.css.map": "/COBREX/static/css/main.a107c68b.css.map",
-    "main.aa778d81.js.map": "/COBREX/static/js/main.aa778d81.js.map",
+    "main.08df1869.js.map": "/COBREX/static/js/main.08df1869.js.map",
     "787.d9c7758a.chunk.js.map": "/COBREX/static/js/787.d9c7758a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a107c68b.css",
-    "static/js/main.aa778d81.js"
+    "static/js/main.08df1869.js"
   ]
 }
