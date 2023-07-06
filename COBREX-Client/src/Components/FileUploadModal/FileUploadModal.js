@@ -36,10 +36,7 @@ const FileUploadModal = (props) => {
     // Details of the uploaded file
 
     axios
-      .post(
-        'https://pacific-waters-96516.herokuapp.com' + '/business_rules',
-        formData
-      )
+      .post(process.env.REACT_APP_API_URL + '/business_rules', formData)
       .then((response) => {
         console.log(response);
         localStorage.setItem(

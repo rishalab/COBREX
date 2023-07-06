@@ -1,3 +1,6 @@
+/*
+*   Copyright © 2023 Dr. Sridhar Chimalakonda, Risha Lab
+*/
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

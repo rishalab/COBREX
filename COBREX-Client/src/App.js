@@ -1,3 +1,6 @@
+/*
+*   Copyright © 2023 Dr. Sridhar Chimalakonda, Risha Lab
+*/
 import { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';

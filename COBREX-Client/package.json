@@ -1,7 +1,8 @@
 {
   "name": "br-extractor",
   "version": "0.1.0",
-  "homepage": "https://rishalab.github.io/COBREX",
+  "private": true,
+  "homepage": "https://mir-sam-ali.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -18,6 +19,7 @@
     "react": "^18.1.0",
     "react-bootstrap": "^2.3.1",
     "react-dom": "^18.1.0",
+    "react-flow-renderer": "^10.1.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

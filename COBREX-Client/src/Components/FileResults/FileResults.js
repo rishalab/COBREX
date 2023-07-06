@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './FileResults.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Sidebar from '../Sidebar/Sidebar';
+import Graph from '../BusinessRules/Graph';
 // import jsonData from '../../temp-data.json';
 // import cfgData from '../../cfg.json';
 import randomColor from 'randomcolor';
@@ -123,10 +124,7 @@ const FileResults = (props) => {
       }
 
       axios
-        .post(
-          'https://pacific-waters-96516.herokuapp.com' + '/graphdot',
-          newGraph
-        )
+        .post(process.env.REACT_APP_API_URL + '/graphdot', newGraph)
         .then((response) => {
           //console.log(response);
           setCurrentGraph(newGraph);
@@ -226,10 +224,7 @@ const FileResults = (props) => {
     }
 
     axios
-      .post(
-        'https://pacific-waters-96516.herokuapp.com' + '/graphdot',
-        newGraph
-      )
+      .post(process.env.REACT_APP_API_URL + '/graphdot', newGraph)
       .then((response) => {
         setCurrentGraph(newGraph);
         setCurrentDotGraph(response.data['dot_code']);
@@ -290,7 +285,7 @@ const FileResults = (props) => {
     //   });
     axios
       .post(
-        'https://pacific-waters-96516.herokuapp.com' + '/export',
+        process.env.REACT_APP_API_URL + '/export',
         {
           graph: currentGraph,
           format: format,
